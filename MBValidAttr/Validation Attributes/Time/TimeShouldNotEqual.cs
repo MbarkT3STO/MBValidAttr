@@ -8,8 +8,8 @@ namespace MBValidAttr.Validation_Attributes.Time
     /// </summary>
     public class TimeShouldNotEqual : ValidationAttribute
     {
-        private string _valueToBeChecked;
-        private string _errorMessage;
+        private readonly string _valueToBeChecked;
+        private readonly string _errorMessage;
 
 
         /// <param name="valueToBeChecked">Value to be checked</param>
